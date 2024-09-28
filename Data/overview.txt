@@ -1,0 +1,11 @@
+data_selected_translated_filtered_all: This is the monolingual corpus after pre-processing (removing sentences lower than 3 tokens).
+
+data_domian_cosine_arabert_all: This data contains a score for each sentence from the monolingual corpus using domain cosine with arabert_large. Domain cosine is calculated between pre-processed dataset and the monolingual corpus.
+
+data_domian_cosine_arabert_benchmark_all: This data contains a score for each sentence from the monolingual corpus using domain cosine with arabert. Domain cosine is calculated between benchmarked dataset and the monolingual corpus.
+
+data_domian_cosine_sent_arabert_large_all: This data contains a score for each sentence from the monolingual corpus using domain cosine with sent_arabert. Domain cosine is calculated between pre-processed dataset and the monolingual corpus.
+
+data_domian_cosine_sent_bert_all: This data contains a score for each sentence from the monolingual corpus using domain cosine with sent_bert. Domain cosine is calculated between pre-processed dataset and the monolingual corpus.
+
+data_selected_domain_finetune_arabert_large_all:This data contains a label for each sentence from the monolingual corpus using domain finetune with arabert_large.
